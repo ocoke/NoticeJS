@@ -15,7 +15,7 @@ notice:
     # Expire Date (a valid date)
     expired: 2023-07-19
     # Waiting Time (ms)
-    wtime: 6500
+    wtime: 7500
     # Can Close
     close: true
     # Notice Unique-ID

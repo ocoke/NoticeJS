@@ -36,12 +36,12 @@ let server = script.getAttribute('server');
             notice.style.backgroundColor = '#FF8A65';
         }
         notice.style['user-select'] = 'none';
-        notice.innerHTML = `<div style="font-weight:700">${data.data.title}</div><div>${data.data.content}</div>`;
+        notice.innerHTML = `<div style="font-weight:700;max-width:90%;word-break:break-all;">${data.data.title}</div><div style="max-width:90%;word-break:break-all;">${data.data.content}</div>`;
         setTimeout(() => {
             notice.style.opacity = 1;
         }, 500);
         if (data.data.close) {
-            notice.innerHTML += `<div id=tap_to_close_noticejs style="position:absolute;right:0;top:0;padding:20px 60px;cursor:pointer;font-weight:700">X</div>`
+            notice.innerHTML += `<div id=tap_to_close_noticejs style="position:absolute;right:60px;top:20px;cursor:pointer;font-weight:700">X</div>`
         }
         document.body.appendChild(notice);
         setTimeout(() => {
