@@ -1,0 +1,22 @@
+notice:
+  - 
+    # Domain, Split by ','.
+    domain: awa.fyi,t.cky.im
+    # Site name
+    name: AWA.FYI
+    # Notice Type (success/info/danger/warning)
+    msgType: warning
+    # Alert Type (every/session/local)
+    alertType: every
+    # Title
+    title: AWA.FYI 更换域名
+    # Content
+    content: '我们将于近期更换域名，AWA.FYI 将迁移至 https://t.cky.im/ ，原域名将于 2023 年 7 月 18 日过期，请尽快修改。'
+    # Expire Date (a valid date)
+    expired: 2023-07-19
+    # Waiting Time (ms)
+    wtime: 6500
+    # Can Close
+    close: true
+    # Notice Unique-ID
+    uid: '1'
