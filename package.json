@@ -1,5 +1,5 @@
 {
-  "name": "noticejs",
+  "name": "cky-noticejs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/js-yaml": "^4.0.5",
     "js-yaml": "^4.1.0",
