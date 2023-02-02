@@ -8,7 +8,7 @@ export default defineEventHandler(async (event) => {
     let noticeData = null;
     for (let i of data.notice) {
         let o = i.domain.split(',');
-        if (o.includes(reqDomain)) {
+        if (o.includes(reqDomain) || i.domain == '*') {
             noticeData = i;
             break;
         }
@@ -23,5 +23,4 @@ export default defineEventHandler(async (event) => {
         success: true,
         data: noticeData,
     }
-    // return data;
 });

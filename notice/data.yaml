@@ -1,7 +1,7 @@
 notice:
   - 
     # Domain, Split by ','.
-    domain: awa.fyi,t.cky.im
+    domain: awa.fyi,t.cky.im,127.0.0.1
     # Site name
     name: AWA.FYI
     # Notice Type (success/info/danger/warning)

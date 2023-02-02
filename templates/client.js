@@ -41,7 +41,7 @@ let server = script.getAttribute('server');
             notice.style.opacity = 1;
         }, 500);
         if (data.data.close) {
-            notice.innerHTML += `<div id=tap_to_close_noticejs style="position:absolute;right:60px;top:20px;cursor:pointer;font-weight:700">X</div>`
+            notice.innerHTML += `<div id=tap_to_close_noticejs style="position:absolute;right:4rem;top:20px;cursor:pointer;font-weight:700">X</div>`
         }
         document.body.appendChild(notice);
         setTimeout(() => {
