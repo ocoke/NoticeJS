@@ -20,3 +20,24 @@ notice:
     close: true
     # Notice Unique-ID
     uid: '1'
+  - 
+    # Domain, Split by ','.
+    domain: cky.im,imcky.top
+    # Site name
+    name: CKY
+    # Notice Type (success/info/danger/warning)
+    msgType: warning
+    # Alert Type (every/session/local)
+    alertType: every
+    # Title
+    title: 更换域名通知
+    # Content
+    content: '此域名将在 12 月 11 日失效，IMCKY.TOP 已被自动重定向至 CKY.IM。'
+    # Expire Date (a valid date)
+    expired: 2023-12-11
+    # Waiting Time (ms)
+    wtime: 7500
+    # Can Close
+    close: true
+    # Notice Unique-ID
+    uid: '1'
